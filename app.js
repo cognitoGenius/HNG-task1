@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.get('/', (req, res, next) => {
     res.status(200).json({
-        "slackUsername": "String",
+        "slackUsername": "Tommy",
         "backend": true,
         "age": 21,
         "bio": "I am Tommy, an up and coming software engineer"
